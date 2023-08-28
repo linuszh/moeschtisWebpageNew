@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Timer Styles */
+#timer {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Date List Styles */
+#dateList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#dateList li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Upload Form Styles */
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#uploadForm input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#uploadForm button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Gallery Styles */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    #gallery img {
+        max-width: 100%;
+    }
+}
